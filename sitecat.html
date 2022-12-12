@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My HTML</title>
+	<script>
+		function changeBackground() {
+			let color = document.body.style.backgroundColor;
+			if (color === "palegreen") {
+				color = "coral";
+			} else {
+				color = "palegreen";
+			}
+			document.body.style.backgroundColor = color;
+		}
+	</script>
+  </head>
+  <body style="background-color: cadetblue;">
+    <p>Привет! Это мой первый сайт на курсе от SkillFactory!</p>
+	<button onclick="changeBackground()" 
+		style="width: 200px; height: 50px; background-color: deepskyblue; font-size: 20px;">
+		Нажми меня!
+	</button>
+    <h1 style="color: DarkSlateGray;">А вот тут будет кот!</h1>
+    <img src="https://ont.by/static/article/big/index/dNOZflyIEvzb2Wu0.jpg">
+  </body>
+</html>
